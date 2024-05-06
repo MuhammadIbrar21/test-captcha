@@ -52,7 +52,7 @@ const Captcha = () => {
     }
 
     useEffect(() => {
-        images.sort(() => Math.random() - 0.5);
+        shuffle()
         setErrorMessage('')
     }, [])
 
